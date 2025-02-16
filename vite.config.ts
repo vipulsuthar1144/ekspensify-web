@@ -1,0 +1,18 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  base: "/",
+  build: {
+    outDir: "dist",
+  },
+  server: {
+    port: 1819,
+    host: "localhost",
+  },
+  optimizeDeps: {
+    exclude: ["lucide-react"],
+  },
+});
