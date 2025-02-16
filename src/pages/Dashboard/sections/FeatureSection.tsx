@@ -36,7 +36,7 @@ const FeatureSection = forwardRef<HTMLDivElement, IFeatureSectionProps>(
 
           <div
             className={`absolute z-10 top-1/2 -translate-y-1/2  hidden md:block ${
-              !rtl ? "-left-20  rotate-180" : "-right-20  rotate-0"
+              !rtl ? "left-0  rotate-180" : "right-0  rotate-0"
             }`}
           >
             <motion.img
@@ -80,7 +80,7 @@ const FeatureSection = forwardRef<HTMLDivElement, IFeatureSectionProps>(
           </p>
 
           {/* Buttons */}
-          <div className="mt-10 flex items-center gap-6">
+          {/* <div className="mt-10 flex items-center gap-6">
             <motion.a
               href="#features"
               className=" md:text-sm flex items-center text-xs gap-2"
@@ -88,7 +88,7 @@ const FeatureSection = forwardRef<HTMLDivElement, IFeatureSectionProps>(
             >
               Get Ready <span className=" text-lg md:text-xl">⤍</span>
             </motion.a>
-          </div>
+          </div> */}
         </motion.div>
       </section>
     );

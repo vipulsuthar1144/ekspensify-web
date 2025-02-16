@@ -7,6 +7,7 @@ import imgCategories from "./img-categories.png";
 import imgRoundedBorder from "./img-rounded-border.png";
 import imgDashedLine from "./img-dashed-line.png";
 import imgPlaystore from "./img-play-store.png";
+import imgTransaction from "./img-transaction.png";
 
 export {
   appFullLogo,
@@ -14,6 +15,7 @@ export {
   imgAccounts,
   imgBudget,
   imgExport,
+  imgTransaction,
   imgPlaystore,
   imgCategories,
   imgRoundedBorder,

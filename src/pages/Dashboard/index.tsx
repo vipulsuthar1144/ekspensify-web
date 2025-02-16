@@ -1,4 +1,10 @@
-import { imgAccounts, imgBudget, imgCategories, imgExport } from "../../assets";
+import {
+  imgAccounts,
+  imgBudget,
+  imgCategories,
+  imgExport,
+  imgTransaction,
+} from "../../assets";
 import Hero from "./sections/HeroSection";
 import HowItWorks from "./sections/HowItWorks";
 import FeatureSection from "./sections/FeatureSection";
@@ -17,12 +23,12 @@ const Dashboard = () => {
     }
   };
   return (
-    <div className="space-y-10">
+    <div className="space-y-24">
       <Hero handleExploreFeature={handleExploreFeature} />
       <HowItWorks />
       <FeatureSection
         ref={featureRef}
-        img={imgAccounts}
+        img={imgTransaction}
         title="Automatically track your online transactions"
         desc="Help find solutions with intuitive and in accordance with client
           business goals. We provide high-quality services."

@@ -9,7 +9,7 @@ const steps = [
   },
   {
     id: 2,
-    title: "Setup your wallet/ cc.",
+    title: "Setup your wallet/ acc.",
     description:
       "Help find solutions with intuitive and in accordance with client business goals. We provide high-quality services.",
   },
@@ -46,7 +46,7 @@ const StepItem = ({ step }: any) => {
 
 const HowItWorks = () => {
   return (
-    <section className="w-full py-16 px-5">
+    <section className="w-full px-5">
       <h2 className="text-center text-2xl  md:text-3xl font-semibold text-gray-900 mb-10">
         How it’s Work
       </h2>
