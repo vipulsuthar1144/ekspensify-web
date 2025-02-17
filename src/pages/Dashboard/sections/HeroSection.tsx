@@ -23,7 +23,7 @@ const Hero = ({
     <section className="w-full container max-w-7xl mx-auto min-h-[60vh] flex flex-col-reverse md:flex-row items-center justify-between gap-5 px-5 md:px-0">
       {/* Left Content */}
       <motion.div
-        className="text-left flex-1 max-w-xl"
+        className="text-left flex-1 max-w-xl overflow-hidden"
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}

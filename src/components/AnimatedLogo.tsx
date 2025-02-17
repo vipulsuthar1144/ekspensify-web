@@ -3,8 +3,14 @@ import animationData from "../assets/app-animated-logo.json"; // Adjust the path
 
 const AnimatedLogo = () => {
   return (
-    <div className="flex justify-center bg-primary items-center h-screen">
-      <Lottie animationData={animationData} loop={false} className="max-w-xl" />
+    <div className=" bg-primary w-full h-screen">
+      <div className="flex justify-center items-center h-svh">
+        <Lottie
+          animationData={animationData}
+          loop={false}
+          className="max-w-xl"
+        />
+      </div>
     </div>
   );
 };
