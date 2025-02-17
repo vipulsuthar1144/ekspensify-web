@@ -58,9 +58,7 @@ const Footer = () => {
               whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
             >
               <Mail className="size-4 md:size-[18px]" />
-              <span className="font-medium text-xs md:text-sm">
-                {MAIL_CONTACT_US}
-              </span>
+              <span className="font-medium text-xs md:text-sm">Contact Us</span>
             </motion.a>
 
             {/* Play Store Button */}

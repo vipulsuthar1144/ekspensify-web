@@ -47,14 +47,14 @@ const FeatureSection = forwardRef<HTMLDivElement, IFeatureSectionProps>(
           </div>
           {!lastSection && (
             <div
-              className={`absolute hidden md:block -bottom-24 -translate-x-1/2 z-30
+              className={`absolute hidden md:block -bottom-40 -translate-x-1/2 z-30
           ${!rtl ? "left-1/4" : "right-1/2"}
           `}
             >
               <motion.img
                 src={imgDashedLine}
                 alt="Mobile UI Border"
-                className="w-1.5 h-40"
+                className="w-1.5 h-48"
               />
             </div>
           )}

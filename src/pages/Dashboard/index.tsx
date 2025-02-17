@@ -23,13 +23,13 @@ const Dashboard = () => {
     }
   };
   return (
-    <div className="space-y-24">
+    <div className="space-y-24 md:space-y-14">
       <Hero handleExploreFeature={handleExploreFeature} />
       <HowItWorks />
       <FeatureSection
         ref={featureRef}
         img={imgTransaction}
-        title="Smart Auto-Tracking 🚀"
+        title="Smart Auto-Tracking"
         desc="Effortlessly track your online transactions in real time. Enable auto-tracking, and Ekspensify will automatically detect online transactions and mark them as pending. Review and categorize them later with just a tap!"
       />
       <FeatureSection
