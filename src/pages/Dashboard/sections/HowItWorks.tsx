@@ -11,7 +11,7 @@ const steps = [
     id: 2,
     title: "Set Up Your Account",
     description:
-      "Create your account and set up your wallet within minutes. You’ll have full control of your finances without the need for any bank details.",
+      "Create your account and set up your wallet within minutes. You’ll have full control of your finances without the need for any bank details or documents.",
   },
   {
     id: 3,

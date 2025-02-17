@@ -20,7 +20,7 @@ const Hero = ({
   }, []);
   return (
     // <section className="relative w-full  flex items-center justify-center px-6 md:px-16">
-    <section className="w-full overflow-x-hidden container max-w-7xl mx-auto min-h-[60vh] flex flex-col-reverse md:flex-row items-center justify-between gap-5 px-5 md:px-0">
+    <section className="w-full container max-w-7xl mx-auto min-h-[60vh] flex flex-col-reverse md:flex-row items-center justify-between gap-5 px-5 md:px-0">
       {/* Left Content */}
       <motion.div
         className="text-left flex-1 max-w-xl"
