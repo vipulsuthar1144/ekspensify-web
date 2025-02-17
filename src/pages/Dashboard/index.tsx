@@ -29,32 +29,31 @@ const Dashboard = () => {
       <FeatureSection
         ref={featureRef}
         img={imgTransaction}
-        title="Automatically track your online transactions"
-        desc="Help find solutions with intuitive and in accordance with client
-          business goals. We provide high-quality services."
+        title="Smart Auto-Tracking 🚀"
+        desc="Effortlessly track your online transactions in real time. Enable auto-tracking, and Ekspensify will automatically detect online transactions and mark them as pending. Review and categorize them later with just a tap!"
       />
       <FeatureSection
         rtl
         img={imgAccounts}
-        title="Easy to add multiple accounts and wallet"
-        desc="Help find solutions with intitutive and in accordance with client business goals. we provide a high-quality services."
+        title="Track Multiple Accounts in One Place"
+        desc="Easily manage all your bank accounts in one app. Add multiple accounts and track balances across different banks effortlessly."
       />
       <FeatureSection
         img={imgBudget}
-        title="Budget Smarter Plan, Track & Stay on Target!"
-        desc="Help find solutions with intitutive and in accordance with client business goals. we provide a high-quality services."
+        title="Create and Manage Budgets"
+        desc="Set your spending limits and stay on track. With Ekspensify, you can easily create budgets by setting the amount and period (e.g. monthly, weekly). Stay within your budget."
       />
       <FeatureSection
         rtl
         img={imgExport}
-        title="Export your Transaction in PDF/CVS file format"
-        desc="Help find solutions with intitutive and in accordance with client business goals. we provide a high-quality services."
+        title="Export Your Transactions"
+        desc="Easily generate and export your financial statements. With Ekspensify, you can quickly export your transaction history in both PDF and CSV formats."
       />
       <FeatureSection
         img={imgCategories}
         lastSection
-        title="You can add & remove your custom categories !"
-        desc="Help find solutions with intitutive and in accordance with client business goals. we provide a high-quality services."
+        title="Customizable Categories for Income & Expense"
+        desc="Ekspensify offers a wide range of predefined categories for both income and expenses. Need something more specific? You can easily create custom categories to fit your unique spending habits and track your money with precision."
       />
     </div>
   );

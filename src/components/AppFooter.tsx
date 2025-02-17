@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import { appFullLogo, imgPlaystore } from "../assets";
-import { MAIL_SUPPORT, URL_PLAY_STORE } from "../utils/constants";
+import { MAIL_CONTACT_US, URL_PLAY_STORE } from "../utils/constants";
 
 const Footer = () => {
   return (
@@ -37,8 +37,8 @@ const Footer = () => {
             className="text-secondary  text-xs md:text-sm mt-5 max-w-sm"
             style={{ lineHeight: "25px" }}
           >
-            Help find solutions with intuitive and in accordance with client
-            business goals. We provide high-quality services.
+            Track your money, manage your budget, and build better financial
+            habits—all in one app.
           </p>
         </motion.div>
 
@@ -53,13 +53,13 @@ const Footer = () => {
           <div className="flex flex-wrap items-start md:items-center gap-1 md:gap-4">
             {/* Email */}
             <motion.a
-              href={`mailto:${MAIL_SUPPORT}`}
+              href={`mailto:${MAIL_CONTACT_US}`}
               className="flex items-center cursor-pointer gap-2 px-3 py-2 border border-primary rounded-full shadow-sm"
               whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
             >
               <Mail className="size-4 md:size-[18px]" />
               <span className="font-medium text-xs md:text-sm">
-                {MAIL_SUPPORT}
+                {MAIL_CONTACT_US}
               </span>
             </motion.a>
 

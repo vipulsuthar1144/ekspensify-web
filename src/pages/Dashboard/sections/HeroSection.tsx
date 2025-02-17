@@ -20,7 +20,7 @@ const Hero = ({
   }, []);
   return (
     // <section className="relative w-full  flex items-center justify-center px-6 md:px-16">
-    <section className="w-full container max-w-7xl mx-auto min-h-[60vh] flex flex-col-reverse md:flex-row items-center justify-between gap-5 px-5 md:px-0">
+    <section className="w-full overflow-x-hidden container max-w-7xl mx-auto min-h-[60vh] flex flex-col-reverse md:flex-row items-center justify-between gap-5 px-5 md:px-0">
       {/* Left Content */}
       <motion.div
         className="text-left flex-1 max-w-xl"
@@ -61,8 +61,9 @@ const Hero = ({
           {/* </span> */}
         </h1>
         <p className="text-secondary md:leading-7 text-sm md:text-base mt-4">
-          Help find solutions with intuitive and in accordance with client
-          business goals. We provide high-quality services.
+          Ekspensify is a personal finance management app that helps you easily
+          track your income and expenses, stay on budget, and make smarter
+          financial decisions.
         </p>
 
         {/* Buttons */}

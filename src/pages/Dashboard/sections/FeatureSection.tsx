@@ -14,7 +14,7 @@ const FeatureSection = forwardRef<HTMLDivElement, IFeatureSectionProps>(
     return (
       <section
         ref={ref}
-        className={`flex container max-w-7xl mx-auto items-center justify-between gap-5 px-5 md:px-0 ${
+        className={`flex w-full overflow-x-hidden container max-w-7xl mx-auto items-center justify-between gap-5 px-5 md:px-0 ${
           !rtl ? "flex-col md:flex-row" : "flex-col md:flex-row-reverse"
         }`}
       >

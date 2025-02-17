@@ -5,19 +5,19 @@ const steps = [
     id: 1,
     title: "Install the app",
     description:
-      "Help find solutions with intuitive and in accordance with client business goals. We provide high-quality services.",
+      "Get Ekspensify from the Play Store and install it on your device. The app is lightweight and easy to set up, making it perfect for managing your finances on the go.",
   },
   {
     id: 2,
-    title: "Setup your wallet/ acc.",
+    title: "Set Up Your Account",
     description:
-      "Help find solutions with intuitive and in accordance with client business goals. We provide high-quality services.",
+      "Create your account and set up your wallet within minutes. You’ll have full control of your finances without the need for any bank details.",
   },
   {
     id: 3,
-    title: "Start tracking",
+    title: "Start Tracking",
     description:
-      "Help find solutions with intuitive and in accordance with client business goals. We provide high-quality services.",
+      "Begin monitoring your income and expenses right away. Log your transactions, set budgets, and gain clear insights into your spending patterns.",
   },
 ];
 
