@@ -23,9 +23,10 @@ const AppHeader = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1, transition: { duration: 0.6 } }}
         >
-          <Link to="/">
+          <Link to="/" aria-label="Go Home Page">
             <img
               src={appFullLogo}
+              alt="Ekspensify"
               className="w-24 h-auto select-none cursor-pointer"
               draggable={false}
             />

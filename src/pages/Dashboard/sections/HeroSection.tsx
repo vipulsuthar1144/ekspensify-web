@@ -78,6 +78,7 @@ const Hero = ({
             {/* <FaGooglePlay /> */}
             <img
               src={imgPlaystore}
+              alt="Play Store"
               className="w-5 h-auto select-none cursor-pointer"
               draggable={false}
             />

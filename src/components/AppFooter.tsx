@@ -24,9 +24,10 @@ const Footer = () => {
           // animate={{ opacity: 1, x: 0, transition: { duration: 0.6 } }}
         >
           {/* Logo */}
-          <Link to="/">
+          <Link to="/" aria-label="Go Home">
             <img
               src={appFullLogo}
+              alt="Ekspensify"
               className="w-24 h-auto select-none cursor-pointer"
               draggable={false}
             />
@@ -50,7 +51,7 @@ const Footer = () => {
           viewport={{ once: true }}
           // animate={{ opacity: 1, x: 0, transition: { duration: 0.6 } }}
         >
-          <div className="flex flex-wrap items-start md:items-center gap-1 md:gap-4">
+          <div className="flex flex-wrap items-center justify-start md:justify-end  gap-1 md:gap-4">
             {/* Email */}
             <motion.a
               href={`mailto:${MAIL_CONTACT_US}`}
@@ -71,6 +72,7 @@ const Footer = () => {
             >
               <img
                 src={imgPlaystore}
+                alt="PlayStore"
                 className="w-4 h-auto select-none cursor-pointer"
                 draggable={false}
               />
@@ -80,7 +82,17 @@ const Footer = () => {
           <div className="mt-6 flex flex-wrap items-start justify-start md:justify-center gap-6">
             <motion.div whileHover={{ scale: 1.1 }}>
               <Link
+                to="/open-source"
+                aria-label="Go Open Source Page"
+                className="hover:text-linkHover text-xs md:text-sm no-underline transition-colors duration-300"
+              >
+                Open Source
+              </Link>
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.1 }}>
+              <Link
                 to="/privacy-policy"
+                aria-label="Go Privacy Policy Page"
                 className="hover:text-linkHover text-xs md:text-sm no-underline transition-colors duration-300"
               >
                 Privacy Policy
@@ -89,6 +101,7 @@ const Footer = () => {
             <motion.div whileHover={{ scale: 1.1 }}>
               <Link
                 to="/terms-conditions"
+                aria-label="Go Terms Conditions Page"
                 className="hover:text-linkHover text-xs md:text-sm no-underline transition-colors duration-300"
               >
                 Terms & Condition
