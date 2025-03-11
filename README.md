@@ -31,7 +31,7 @@ You can get the latest version of the app from the Google Play Store:
 
 
 ## **📸 Screenshots**
-<img src="ekspensify_preview.svg" alt="preview"/>
+<img src="ekspensify-preview.svg" alt="preview"/>
 
 ## **🔧 Installation & Setup**
 
