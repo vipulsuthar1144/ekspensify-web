@@ -84,7 +84,7 @@ export const DataProjectTeckStack: {
     title: "Web",
     desc: "Ekspensify Web is a modern, responsive frontend built with React, TypeScript, MUI, Tailwind CSS, and Framer Motion to provide a seamless user experience. This project serves as the official landing page for Ekspensify, along with dedicated pages for the Privacy Policy, Terms & Conditions, and Open Source contributions.",
     technologies: [icVscode, icReactjs, icTypescript],
-    github: "https://github.com/vipulsuthar1144/ekspensify-landing-page",
+    github: "https://github.com/vipulsuthar1144/ekspensify-web",
   },
   {
     title: "Design",
