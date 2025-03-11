@@ -1,50 +1,67 @@
-# React + TypeScript + Vite
+# 🎉 Ekspensify - Your Personal Finance Buddy!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **🚀 Overview**
 
-Currently, two official plugins are available:
+Welcome to **Ekspensify**, your personal finance tracking app made with **Kotlin** and **Jetpack Compose**! This project is all about making financial management simple, fun, and stress-free. Whether you’re budgeting like a pro or just starting, **Ekspensify** helps you stay on top of your money! 💰✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **✨ Why I Built This**
 
-## Expanding the ESLint configuration
+I wanted a **clean, intuitive, and fun way** to track income and expenses. No more boring spreadsheets - just a smooth experience with a **beautiful UI, insightful analytics, and helpful budgeting tools**. This app is my solution to making finance tracking **enjoyable and effortless**! 🚀
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## **🌟 Features**
 
-- Configure the top-level `parserOptions` property like this:
+- 📌 **Track Income & Expenses**: Effortlessly record and keep track of your income and expenses in real time.
+- 🏷 **Categories for Income & Expenses**: Includes all standard categories and allows custom categories.
+- 📩 **Automatic Tracking via SMS**: Detects transactions from SMS alerts and tracks them in pending transactions for review.
+- 💰 **Budget Management**: Create budgets to limit spending and stay on track.
+- 🔔 **Budget Alerts**: Get notified when you're approaching or exceeding your budget.
+- 🎨 **Modern UI**: Built with **Jetpack Compose** for a sleek and intuitive user experience.
+- 📊 **Dashboard & Analytics**: Break down expenses and income by category with visual insights.
+- 🏦 **Multiple Account Tracking**: Manage and track finances separately for different bank accounts.
+- ☁ **Cloud Storage:** Your transaction records are securely stored on the server, keeping them safe and accessible.
+- 📄 **PDF & CSV Export**: Easily export transaction data for reporting and record-keeping.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## **🎉 Download the App**
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+You can get the latest version of the app from the Google Play Store:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+**✨ Latest Version:** 1.0
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="80"/>](https://play.google.com/store/apps/details?id=com.memeusix.ekspensify)
+
+
+## **📸 Screenshots**
+<img src="ekspensify_preview.svg" alt="preview"/>
+
+## **🔧 Installation & Setup**
+
+This is a complete Android app that interacts with a backend server. While you can't fully run the app locally without the server (since it relies on server APIs), you can still use it for testing and experimentation.
+
+### Setup Instructions:
+
+- Clone the repository:
+
+    ```bash
+    git clone https://github.com/memeusix/Ekspensify.git
+    ```
+
+- Open the project in **Android Studio**.
+- **Build and run** the app.
+
+<aside>
+➡️
+
+**Note**: You can explore and experiment with the app locally, though server-dependent features like network calls and Google auth will require the backend.
+
+</aside>
+
+## **🤝 Contributing**
+
+Love this project? Want to make it even better? Feel free to **open issues, submit pull requests, or just drop feedback**! Let’s build something amazing together. 💡💻
+
+## **📬 Let's Connect!**
+
+Got feedback or ideas? Reach out to me! I’d love to hear from you. 🎉
+
+- 📧 Email: team@ekspensify.in
+- 💼 LinkedIn:  [Vipul Suthar | LinkedIn](https://www.linkedin.com/in/vipulsuthar1144/)
