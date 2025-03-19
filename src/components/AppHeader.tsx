@@ -52,6 +52,14 @@ const AppHeader = () => {
                 Terms & Condition
               </Link>
             </motion.div>
+            <motion.div whileHover={{ scale: 1.1 }}>
+              <Link
+                to="/open-source"
+                className="text-primary text-sm hover:text-linkHover no-underline transition-colors duration-300"
+              >
+                Open Source
+              </Link>
+            </motion.div>
           </nav>
 
           {/* Button */}

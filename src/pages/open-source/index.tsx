@@ -23,6 +23,12 @@ const OpenSource = () => {
           smarter and more efficient expense tracking solution.
         </p>
         <p className="text-secondary text-xs md:text-base">
+          We believe in the power of collaboration! Our project is open source,
+          and we welcome contributions from developers, designers, and
+          enthusiasts worldwide. Whether you want to improve existing features,
+          fix bugs, or suggest new ideas, there’s a place for you here.
+        </p>
+        {/* <p className="text-secondary text-xs md:text-base">
           Below, you'll find access to all essential resources, allowing you to
           explore, modify, and contribute:
         </p>
@@ -40,7 +46,7 @@ const OpenSource = () => {
               <p className="text-secondary text-xs md:text-base">{item}</p>
             </li>
           ))}
-        </ol>
+        </ol> */}
       </section>
       <section className="space-y-6">
         <h1 className="text-3xl md:text-4xl font-semibold text-primary">
@@ -53,11 +59,13 @@ const OpenSource = () => {
               style={{ boxShadow: "0 0 10px 7px #7F3DFF0D" }}
               className=" flex items-center gap-5 rounded-lg p-4"
             >
-              <img
-                src={imgProfile}
-                alt="Profile Pic"
-                className="w-20 md:w-24 aspect-square"
-              />
+              <div className="border-[4px] w-20 md:w-24 aspect-square overflow-hidden shadow-lg border-[#e5cff8] rounded-full">
+                <img
+                  src={item.profile_pic || imgProfile}
+                  alt="Profile Pic"
+                  className="w-full aspect-square rounded-full object-cover"
+                />
+              </div>
               <div>
                 <h4 className="text-sm md:text-lg font-semibold">
                   {item.name}

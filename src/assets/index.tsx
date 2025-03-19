@@ -28,6 +28,11 @@ import icReactjs from "./tech-icons/ic-reactjs.png";
 import icTypescript from "./tech-icons/ic-typescript.png";
 import icVscode from "./tech-icons/ic-vscode.png";
 
+import photoVipulSuthar from "./photo-vipul-suthar.jpg";
+import photoGokulSuthar from "./photo-gokul-suthar.webp";
+import photoDilipSuthar from "./photo-dilip-suthar.jpg";
+import photoDeepakSuthar from "./photo-deepak-suthar.jpg";
+
 export {
   appFullLogo,
   imgHeroSection,
@@ -55,4 +60,8 @@ export {
   icReactjs,
   icTypescript,
   icVscode,
+  photoVipulSuthar,
+  photoGokulSuthar,
+  photoDilipSuthar,
+  photoDeepakSuthar,
 };
