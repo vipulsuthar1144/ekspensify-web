@@ -1,5 +1,5 @@
 import { RouteObject } from "react-router-dom";
-import Dashboard from "../pages/dashboard";
+import Dashboard from "../pages/Dashboard";
 import PrivacyPolicy from "../pages/privacy-policy";
 import TermsConditions from "../pages/terms-conditions";
 import OpenSource from "../pages/open-source";
