@@ -42,7 +42,7 @@ export const DataTeam: {
   {
     profile_pic: photoGokulSuthar,
     name: "Gokul Suthar",
-    email: "gokulsuthar22@gmail.com",
+    email: "gokulsutharofficial@gmail.com",
     role: "Backend Developer",
     linkedin: "https://www.linkedin.com/in/gokulsuthar22/",
     github: "https://github.com/gokulsuthar22",
@@ -82,7 +82,7 @@ export const DataProjectTeckStack: {
     title: "Backend",
     desc: "The backbone of our platform, ensuring fast, secure, and reliable performance. Our backend is built with scalable architecture, robust APIs, and security-first principles. Whether you're interested in authentication, data management, or performance optimization, dive into the code and collaborate with us!",
     technologies: [icNodejs, icMySql, icTypescript],
-    github: "https://github.com/gokulsuthar22/ekspensify",
+    github: "https://github.com/gokulsuthar22/ekspensify-backend",
   },
   {
     title: "Web",
