@@ -59,7 +59,7 @@ You can get the latest version of the app from the Google Play Store:
 
 
 ## **🔗 Related Ekspensify Projects**
-- 📱 [**Ekspensify Android (Kotlin)**](https://github.com/memeusix/Ekspensify-android) 
+- 📱 [**Ekspensify Android (Kotlin)**](https://github.com/memeusix/ekspensify-android) 
 - ⚙️ [**Ekspensify Backend**](https://github.com/gokulsuthar22/ekspensify-backend)  
 - 🎨 [**Ekspensify Figma Design**](https://www.figma.com/design/JUNZ9Y8HSQa3jphi2kI5eK/Ekspensify?node-id=0-1&p=f&t=PUu5R2fR9bRM8V28-0)
 
