@@ -76,7 +76,7 @@ export const DataProjectTeckStack: {
     title: "Android",
     desc: "Our Android app delivers a smooth and intuitive user experience, built with modern UI components and best development practices. Whether you're here to explore, contribute, or improve the code, your input is always welcome! Check out the repository and be a part of the journey",
     technologies: [icAndroidStudio, icKotlin, icJetpackCompose, icOneSignal],
-    github: "https://github.com/dilipsuthar264/Ekspensify",
+    github: "https://github.com/dilipsuthar264/ekspensify-android",
   },
   {
     title: "Backend",
